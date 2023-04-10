@@ -1,31 +1,24 @@
 
-@media (max-width: 480px) {
-  /* Header styles */
-  header {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  nav ul {
-    display: block;
-    text-align: center;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  /* Main styles */
-  main {
-    padding: 10px;
-  }
-  
+@media only screen and (max-width: 767px) {
   section li {
-    flex-basis: calc(50% - 20px);
+    padding: 1px !important;
+    flex-basis: 100% !important; 
   }
-}
 
+  .btn {
+    display: inline-block  !important;
+    padding: .5em .5em  !important;
+    border: none !important;
+    border-radius: 5px !important;
+    background-color: rgb(249, 3, 3) !important;
+    color: #fff !important;
+    transition: background-color 0.3s ease !important;
+    text-align: center !important;
+    margin-top: 0px !important;
+  }
+
+ 
+}
 
 
 
@@ -165,3 +158,4 @@ img {
   height: 700px;
   width: 700px;
 }
+
